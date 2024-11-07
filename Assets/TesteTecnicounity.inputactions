@@ -15,15 +15,6 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Jump",
-                    "type": "Button",
-                    "id": "e8fa06ce-15fc-4f5d-88ec-138bf5482cd9",
-                    "expectedControlType": "Button",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                },
-                {
                     "name": "Punch",
                     "type": "Button",
                     "id": "3577e008-f595-4956-aaea-3d0e842fa440",
@@ -190,28 +181,6 @@
                 },
                 {
                     "name": "",
-                    "id": "9672411b-b823-4995-ab67-5ab97e0be7a4",
-                    "path": "<Gamepad>/buttonSouth",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad;Keyboard&Mouse;Joystick;Touch;XR",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "50152892-a694-42a0-9eb6-e933bbfde4d1",
-                    "path": "<Keyboard>/space",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Gamepad;Keyboard&Mouse;Joystick;Touch",
-                    "action": "Jump",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
                     "id": "d7b211d8-0556-43d4-a94c-20ff55dedf8c",
                     "path": "<Gamepad>/buttonWest",
                     "interactions": "",
@@ -225,6 +194,17 @@
                     "name": "",
                     "id": "e4856aae-39f2-4320-918f-36a161b4d350",
                     "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Punch",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "3184ed2d-54db-478a-9e0a-0ce801b292f9",
+                    "path": "<Keyboard>/e",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
